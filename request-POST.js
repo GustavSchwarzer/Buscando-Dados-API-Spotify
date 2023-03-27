@@ -3,7 +3,7 @@ const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch
 const url = 'https://psel-solution-automation-cf-ubqz773kaq-uc.a.run.app?access_token=UcAxu7xAh02D';
 
 const data = {
-    github_url: '<Link do repositório do seu projeto>',
+    github_url: '<https://github.com/GustavSchwarzer/Buscando-Dados-API-Spotify>',
     name: '<Gustav Schwarzer>',
     follower_ranking: [
         {
